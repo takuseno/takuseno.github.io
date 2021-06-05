@@ -1,0 +1,13 @@
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>My Educations</h2>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Educations that I've taken.</p>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4 text-list">
+  <ul>
+    {% for education in site.educations %}
+      <li>
+        <p class="text-bold">{{ education.name }}</p>
+        <p class="text-normal">{{ education.position }}</p>
+        <p class="text-normal">{{ education.period }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

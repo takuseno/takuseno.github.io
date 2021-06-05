@@ -19,14 +19,14 @@ projects:
   - owner:
       login: takuseno
     name: d3rlpy
-    description: Data-driven deep reinforcement learning library as an out-of-the-box tool.
-    stargazers_count: 97
-    forks_count: 11
+    description: An offline deep reinforcement learning library
+    stargazers_count: 194
+    forks_count: 24
   - owner:
       login: takuseno
     name: minerva
-    description: An out-of-the-box GUI tool for data-driven deep reinforcement learning.
-    stargazers_count: 26
+    description: An out-of-the-box GUI tool for offline deep reinforcement learning
+    stargazers_count: 36
     forks_count: 1
   - owner:
       login: sony
@@ -37,20 +37,20 @@ projects:
   - owner:
       login: takuseno
     name: d4rl-pybullet
-    description: Datasets for Data-Driven Deep Reinforcement Learning with PyBullet environments
-    stargazers_count: 58
-    forks_count: 4
+    description: Datasets for data-driven deep reinforcement learning with PyBullet environments
+    stargazers_count: 92
+    forks_count: 5
   - owner:
       login: takuseno
     name: d4rl-atari
-    description: Datasets for Data-Driven Deep Reinforcement Learning with Atari (wrapper for datasets released by Google)
-    stargazers_count: 10
-    forks_count: 3
+    description: Datasets for data-driven deep reinforcement learning with Atari (wrapper for datasets released by Google)
+    stargazers_count: 25
+    forks_count: 4
   - owner:
       login: takuseno
     name: ppo
     description: Proximal Policy Optimization implementation with TensorFlow
-    stargazers_count: 88
+    stargazers_count: 94
     forks_count: 21
 
 topics:
@@ -131,12 +131,28 @@ works:
     position: Part-time Web Engineer (full stack)
     period: 2014/10 - 2016/03
 
+
+educations:
+  - name: Keio University
+    position: CS, Ph.D
+    period: 2019/10 -
+
+  - name: Keio University
+    position: CS, Master
+    period: 2018/04 - 2019/09
+
+  - name: Keio University
+    position: CS, Bachelor
+    period: 2014/04 - 2018/03
+
 papers:
   - title: Takuma Seno, Kohei Okuoka, Masahiko Osawa, Michita Imai, "Adaptive Semi-autonomous Agents via Episodic Control", 6th International Conference on Human-Agent Interaction (Poster), 2018
   - title: Takuma Seno, Masahiko Osawa, Michita Imai, "An Intrinsically Motivated Robot Explores Non-reward Environments With Output Arbitration", Annual International Conference on Biologically Inspired Cognitive Architectures, 2018
   - title: Masahiko Osawa, Yuta Ashihara, Takuma Seno, Michita Imai, Satoshi Kurihara, Accumulator Based Arbitration Model for both Supervised Learning and Reinforcement Learning Inspired by Prefrontal Cortex, ICONIP2017.
 
 awards:
+  - title: MITOU Super Creator titled by Information-technology Promotion Agency (IPA), Japan.
+    date: 2021/05
   - title: Exploratory IT Human Resources Project (MITOU Program) by Information-technology Promotion Agency (IPA), Japan.
     date: 2020/06 - 2021/03
   - title: Best Presentation Award at the 29th Japanese Neural Network Society in Tokyo.
