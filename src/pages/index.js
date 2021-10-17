@@ -1,182 +1,162 @@
 import * as React from "react"
+import { pageStyles } from '../components/style/master'
+import Header from '../components/header'
+import { Container, Row, Col } from 'react-bootstrap'
+import { StaticImage } from 'gatsby-plugin-image'
+import {
+  introSectionStyle,
+  profilePictureStyle,
+  nameStyle,
+  sectionTitleStyle,
+  sectionContentStyle,
+  contentListStyle,
+  importantNameStyle
+} from '../components/style/home.module.scss'
 
-// styles
-const pageStyles = {
-  color: "#232129",
-  padding: 96,
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-}
-const headingStyles = {
-  marginTop: 0,
-  marginBottom: 64,
-  maxWidth: 320,
-}
-const headingAccentStyles = {
-  color: "#663399",
-}
-const paragraphStyles = {
-  marginBottom: 48,
-}
-const codeStyles = {
-  color: "#8A6534",
-  padding: 4,
-  backgroundColor: "#FFF4DB",
-  fontSize: "1.25rem",
-  borderRadius: 4,
-}
-const listStyles = {
-  marginBottom: 96,
-  paddingLeft: 0,
-}
-const listItemStyles = {
-  fontWeight: 300,
-  fontSize: 24,
-  maxWidth: 560,
-  marginBottom: 30,
-}
-
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%",
-}
-
-const docLinkStyle = {
-  ...linkStyle,
-  listStyleType: "none",
-  marginBottom: 24,
+const IntroSection = () => {
+  return (
+    <div className={introSectionStyle}>
+      <Row className="justify-content-md-center">
+        <Col md="auto">
+          <div className={profilePictureStyle}>
+            <StaticImage src="../images/profile.jpg" />
+          </div>
+        </Col>
+      </Row>
+      <Row className="justify-content-md-center">
+        <Col md="auto">
+          <p className={nameStyle}>Takuma Seno</p>
+        </Col>
+      </Row>
+      <Row className="justify-content-md-center">
+        <Col md="auto">
+          <p>Machine Learning Engineer @ Sony AI</p>
+        </Col>
+      </Row>
+      <Row className="justify-content-md-center">
+        <Col md="auto">
+          <p>
+            <a href="https://www.linkedin.com/in/takuseno">LinkedIn</a>,
+            <a href="https://github.com/takuseno">GitHub</a>
+          </p>
+        </Col>
+      </Row>
+    </div>
+  )
 }
 
-const descriptionStyle = {
-  color: "#232129",
-  fontSize: 14,
-  marginTop: 10,
-  marginBottom: 0,
-  lineHeight: 1.25,
+const JobSection = () => {
+  return (
+    <div>
+      <h2 className={sectionTitleStyle}>EXPERIENCES</h2>
+      <div className={sectionContentStyle}>
+        <ul className={contentListStyle}>
+          <li>
+            <p><span className={importantNameStyle}>Sony AI inc</span> (2020-10 - Present)</p>
+            <p>Machine Learning Engineer, working for reinforcement learning projects</p>
+          </li>
+          <li>
+            <p><span className={importantNameStyle}>Okinawa Institute of Science and Technology</span> (2020-03 - 2020-07)</p>
+            <p>Research Assistant, worked for building a new deep learning library</p>
+          </li>
+          <li>
+            <p><span className={importantNameStyle}>Sony Corporation</span> (2018-11 - 2020-07)</p>
+            <p>Part-time Resarch Engineer, worked for <a href="https://arxiv.org/abs/2008.07971">Super-human Gran Turismo AI</a> and <a href="https://nnabla.org/">Neural Network Libraries</a></p>
+          </li>
+          <li>
+            <p><span className={importantNameStyle}>Ghelia inc</span> (2018-04 - 2020-08)</p>
+            <p>Part-time Research Engineer, worked for reinforcement learning projects (e.g. robotics, numerical optimization)</p>
+          </li>
+          <li>
+            <p><span className={importantNameStyle}>Wantedly inc</span> (2016-03 - 2018-11)</p>
+            <p>Part-time Web Developer, worked for <a href="https://wantedly.com">wantedly.com</a> and recommendation algorithms</p>
+          </li>
+          <li>
+            <p><span className={importantNameStyle}>MatchinGood inc</span> (2014-10 - 2016-04)</p>
+            <p>Part-time Web Developer, worked for building Web systems</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  )
 }
 
-const docLink = {
-  text: "Documentation",
-  url: "https://www.gatsbyjs.com/docs/",
-  color: "#8954A8",
+const EducationSection = () => {
+  return (
+    <div>
+      <h2 className={sectionTitleStyle}>EDUCATIONS</h2>
+      <div className={sectionContentStyle}>
+        <ul className={contentListStyle}>
+          <li>
+            <p><span className={importantNameStyle}>Keio University</span> (2019-10 - Present)</p>
+            <p>Ph.D, Computer Science</p>
+          </li>
+          <li>
+            <p><span className={importantNameStyle}>Keio University</span> (2018-04 - 2019-09)</p>
+            <p>Master, Computer Science</p>
+          </li>
+          <li>
+            <p><span className={importantNameStyle}>Keio University</span> (2014-04 - 2018-03)</p>
+            <p>Bachelor, Computer Science</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  )
 }
 
-const badgeStyle = {
-  color: "#fff",
-  backgroundColor: "#088413",
-  border: "1px solid #088413",
-  fontSize: 11,
-  fontWeight: "bold",
-  letterSpacing: 1,
-  borderRadius: 4,
-  padding: "4px 6px",
-  display: "inline-block",
-  position: "relative",
-  top: -2,
-  marginLeft: 10,
-  lineHeight: 1,
+const ProjectSection = () => {
+  return (
+    <div>
+      <h2 className={sectionTitleStyle}>PROJECTS</h2>
+      <div className={sectionContentStyle}>
+      </div>
+    </div>
+  )
 }
 
-// data
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial/",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-    color: "#E95800",
-  },
-  {
-    text: "How to Guides",
-    url: "https://www.gatsbyjs.com/docs/how-to/",
-    description:
-      "Practical step-by-step guides to help you achieve a specific goal. Most useful when you're trying to get something done.",
-    color: "#1099A8",
-  },
-  {
-    text: "Reference Guides",
-    url: "https://www.gatsbyjs.com/docs/reference/",
-    description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
-    color: "#BC027F",
-  },
-  {
-    text: "Conceptual Guides",
-    url: "https://www.gatsbyjs.com/docs/conceptual/",
-    description:
-      "Big-picture explanations of higher-level Gatsby concepts. Most useful for building understanding of a particular topic.",
-    color: "#0D96F2",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-    color: "#8EB814",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    badge: true,
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Gatsby Cloud. Get started for free!",
-    color: "#663399",
-  },
-]
+const PrizeSection = () => {
+  return (
+    <div>
+      <h2 className={sectionTitleStyle}>PRIZES</h2>
+      <div className={sectionContentStyle}>
+        <ul className={contentListStyle}>
+          <li>
+            <p><span className={importantNameStyle}>MITOU Super Creator</span> titled by Information-technology Promosition Agency, Japan (IPA) (2021)</p>
+            <p><a href="https://www.meti.go.jp/press/2021/05/20210528004/20210528004.html">Link</a></p>
+          </li>
+          <li>
+            <p><span className={importantNameStyle}>MITOU Creator</span> selected by Information-technology Promotion Agency, Japan (IPA) (2020)</p>
+            <p><a href="https://www.ipa.go.jp/jinzai/mitou/2020/koubokekka_index.html">Link</a></p>
+          </li>
+          <li>
+            <p><span className={importantNameStyle}>Best Presentation Award</span> given at Annual Conference in Japanese Neural Network Society (2019)</p>
+            <p><a href="https://jnns.org/documents/winnerlist.html">Link</a></p>
+          </li>
+          <li>
+            <p><span className={importantNameStyle}>Student Encouragement Award</span> given at Annual Conference in Information Processing Society Japan (2018)</p>
+            <p><a href="http://www.ipsj.or.jp/award/taikaigakusei.html">Link</a></p>
+          </li>
+          <li>
+            <p><span className={importantNameStyle}>Student Encouragement Award</span> given at Human-Agent Interaction Symposium (2017)</p>
+            <p><a href="https://hai-conference.net/symp2017/awards.php">Link</a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  )
+}
 
-// markup
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <title>Home Page</title>
-      <h1 style={headingStyles}>
-        Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
-      </h1>
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
-      </p>
-      <ul style={listStyles}>
-        <li style={docLinkStyle}>
-          <a
-            style={linkStyle}
-            href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-          >
-            {docLink.text}
-          </a>
-        </li>
-        {links.map(link => (
-          <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
-            <span>
-              <a
-                style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-              >
-                {link.text}
-              </a>
-              {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
-                </span>
-              )}
-              <p style={descriptionStyle}>{link.description}</p>
-            </span>
-          </li>
-        ))}
-      </ul>
-      <img
-        alt="Gatsby G Logo"
-        src="data:image/svg+xml,%3Csvg width='24' height='24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12 2a10 10 0 110 20 10 10 0 010-20zm0 2c-3.73 0-6.86 2.55-7.75 6L14 19.75c3.45-.89 6-4.02 6-7.75h-5.25v1.5h3.45a6.37 6.37 0 01-3.89 4.44L6.06 9.69C7 7.31 9.3 5.63 12 5.63c2.13 0 4 1.04 5.18 2.65l1.23-1.06A7.959 7.959 0 0012 4zm-8 8a8 8 0 008 8c.04 0 .09 0-8-8z' fill='%23639'/%3E%3C/svg%3E"
-      />
+      <Header />
+      <Container>
+        <IntroSection />
+        <JobSection />
+        <EducationSection />
+        <PrizeSection />
+      </Container>
     </main>
   )
 }

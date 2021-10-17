@@ -1,0 +1,48 @@
+.intro-section-style {
+  padding: 16px;
+
+  p {
+    margin: 0;
+  }
+  a {
+    color: black;
+  }
+}
+
+.name-style {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.profile-picture-style {
+  max-width: 300px;
+  img {
+    border-radius: 50%;
+  }
+}
+
+.section-title-style {
+  border-bottom: 1px solid black;
+}
+
+.section-content-style {
+  padding: 8px;
+}
+
+.content-list-style {
+  font-size: 1.1em;
+  li {
+    margin-bottom: 8px;
+  }
+  p {
+    margin: 0;
+  }
+  a {
+    color: black;
+  }
+}
+
+.important-name-style {
+  font-size: 1.2em;
+  font-weight: 600;
+}

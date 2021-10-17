@@ -20,5 +20,7 @@ module.exports = {
       },
       __key: "pages",
     },
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
   ],
 };
