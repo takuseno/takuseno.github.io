@@ -1,6 +1,7 @@
 import * as React from "react"
 import { pageStyles } from '../components/style/master'
 import Header from '../components/header'
+import MetaData from '../components/meta'
 import { Container, Row, Col } from 'react-bootstrap'
 import { StaticImage } from 'gatsby-plugin-image'
 import {
@@ -150,6 +151,7 @@ const PrizeSection = () => {
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
+      <MetaData title="Takuma Seno" description="A home page for Takuma Seno" />
       <Header />
       <Container>
         <IntroSection />
