@@ -82,6 +82,24 @@ const JobSection = () => {
   )
 }
 
+const PublicationSection = () => {
+  return (
+    <div>
+      <h2 className={sectionTitleStyle}>PUBLICATIONS</h2>
+      <div className={sectionContentStyle}>
+        <ul className={contentListStyle}>
+          <li>
+            <p>Takuma Seno, Michita Imai, "d3rlpy: An Offline Deep Reinforcement Learning Library", 35th Conference on Neural Information Processing Systems (NeurIPS), Offline Reinforcement Learning Workshop, 2021</p>
+          </li>
+          <li>
+            <p>Ryuji Imamura, Takuma Seno, Kenta Kawamoto, Michael Spranger, "Expert Human-level Driving in Gran Turismo Sport Using Deep Reinforcement Learning with Image-based Representation", 35th Conference on Neural Information Processing Systems (NeurIPS), Deep Reinforcement Learning Workshop, 2021</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  )
+}
+
 const EducationSection = () => {
   return (
     <div>
@@ -124,23 +142,18 @@ const PrizeSection = () => {
         <ul className={contentListStyle}>
           <li>
             <p><span className={importantNameStyle}>MITOU Super Creator</span> titled by Information-technology Promosition Agency, Japan (IPA) (2021)</p>
-            <p><a href="https://www.meti.go.jp/press/2021/05/20210528004/20210528004.html">Link</a></p>
           </li>
           <li>
             <p><span className={importantNameStyle}>MITOU Creator</span> selected by Information-technology Promotion Agency, Japan (IPA) (2020)</p>
-            <p><a href="https://www.ipa.go.jp/jinzai/mitou/2020/koubokekka_index.html">Link</a></p>
           </li>
           <li>
             <p><span className={importantNameStyle}>Best Presentation Award</span> given at Annual Conference in Japanese Neural Network Society (2019)</p>
-            <p><a href="https://jnns.org/documents/winnerlist.html">Link</a></p>
           </li>
           <li>
             <p><span className={importantNameStyle}>Student Encouragement Award</span> given at Annual Conference in Information Processing Society Japan (2018)</p>
-            <p><a href="http://www.ipsj.or.jp/award/taikaigakusei.html">Link</a></p>
           </li>
           <li>
             <p><span className={importantNameStyle}>Student Encouragement Award</span> given at Human-Agent Interaction Symposium (2017)</p>
-            <p><a href="https://hai-conference.net/symp2017/awards.php">Link</a></p>
           </li>
         </ul>
       </div>
@@ -156,6 +169,7 @@ const IndexPage = () => {
       <Container>
         <IntroSection />
         <JobSection />
+        <PublicationSection />
         <EducationSection />
         <PrizeSection />
       </Container>
