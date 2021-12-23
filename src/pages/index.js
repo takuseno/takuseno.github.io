@@ -53,7 +53,7 @@ const JobSection = () => {
       <div className={sectionContentStyle}>
         <ul className={contentListStyle}>
           <li>
-            <p><span className={importantNameStyle}>Sony AI inc</span> (2020-10 - Present)</p>
+            <p><span className={importantNameStyle}>Sony AI</span> (2020-10 - Present)</p>
             <p>Machine Learning Engineer, working for reinforcement learning projects</p>
           </li>
           <li>
@@ -65,15 +65,15 @@ const JobSection = () => {
             <p>Part-time Resarch Engineer, worked for <a href="https://arxiv.org/abs/2008.07971">Super-human Gran Turismo AI</a> and <a href="https://nnabla.org/">Neural Network Libraries</a></p>
           </li>
           <li>
-            <p><span className={importantNameStyle}>Ghelia inc</span> (2018-04 - 2020-08)</p>
+            <p><span className={importantNameStyle}>Ghelia</span> (2018-04 - 2020-08)</p>
             <p>Part-time Research Engineer, worked for reinforcement learning projects (e.g. robotics, numerical optimization)</p>
           </li>
           <li>
-            <p><span className={importantNameStyle}>Wantedly inc</span> (2016-03 - 2018-11)</p>
+            <p><span className={importantNameStyle}>Wantedly</span> (2016-03 - 2018-11)</p>
             <p>Part-time Web Developer, worked for <a href="https://wantedly.com">wantedly.com</a> and recommendation algorithms</p>
           </li>
           <li>
-            <p><span className={importantNameStyle}>MatchinGood inc</span> (2014-10 - 2016-04)</p>
+            <p><span className={importantNameStyle}>MatchinGood</span> (2014-10 - 2016-04)</p>
             <p>Part-time Web Developer, worked for building Web systems</p>
           </li>
         </ul>
