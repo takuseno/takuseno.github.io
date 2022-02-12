@@ -89,6 +89,9 @@ const PublicationSection = () => {
       <div className={sectionContentStyle}>
         <ul className={contentListStyle}>
           <li>
+            <p>Peter Wurman, Samuel Barrett, Kenta Kawamoto, ..., Takuma Seno, ..., et al. "Outracing champion Gran Turismo drivers with deep reinforcement learning", Nature, 602, 223-228, 2022</p>
+          </li>
+          <li>
             <p>Takuma Seno, Michita Imai, "d3rlpy: An Offline Deep Reinforcement Learning Library", 35th Conference on Neural Information Processing Systems (NeurIPS), Offline Reinforcement Learning Workshop, 2021</p>
           </li>
           <li>
