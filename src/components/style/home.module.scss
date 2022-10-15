@@ -25,6 +25,8 @@
 
 .section-title-style {
   border-bottom: 1px solid black;
+  font-size: 1.2em;
+  font-weight: 300;
 }
 
 .section-content-style {
@@ -33,6 +35,19 @@
 
 .content-list-style {
   font-size: 1.1em;
+  li {
+    margin-bottom: 8px;
+  }
+  p {
+    margin: 0;
+  }
+  a {
+    color: black;
+  }
+}
+
+.publication-list-style {
+  font-size: 1.0em;
   li {
     margin-bottom: 8px;
   }

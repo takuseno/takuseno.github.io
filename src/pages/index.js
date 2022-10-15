@@ -11,7 +11,8 @@ import {
   sectionTitleStyle,
   sectionContentStyle,
   contentListStyle,
-  importantNameStyle
+  importantNameStyle,
+  publicationListStyle
 } from '../components/style/home.module.scss'
 
 const IntroSection = () => {
@@ -54,7 +55,7 @@ const JobSection = () => {
         <ul className={contentListStyle}>
           <li>
             <p><span className={importantNameStyle}>Sony AI</span> (2020-10 - Present)</p>
-            <p>Machine Learning Engineer, working for reinforcement learning projects</p>
+            <p>Machine Learning Engineer, working for <a href="https://www.gran-turismo.com/us/gran-turismo-sophy/">Gran Turismo Sophy</a></p>
           </li>
           <li>
             <p><span className={importantNameStyle}>Okinawa Institute of Science and Technology</span> (2020-03 - 2020-07)</p>
@@ -85,17 +86,20 @@ const JobSection = () => {
 const PublicationSection = () => {
   return (
     <div>
-      <h2 className={sectionTitleStyle}>PUBLICATIONS</h2>
+      <h2 className={sectionTitleStyle}>SELECTED PUBLICATIONS</h2>
       <div className={sectionContentStyle}>
-        <ul className={contentListStyle}>
+        <ul className={publicationListStyle}>
           <li>
-            <p>Peter Wurman, Samuel Barrett, Kenta Kawamoto, ..., Takuma Seno, ..., et al. "Outracing champion Gran Turismo drivers with deep reinforcement learning", Nature, 602, 223-228, 2022</p>
+            <p>James MacGlashan, Evan Archer, Alisa Devlic, <strong>Takuma Seno</strong>, Craig Sherstan, Peter R Wurman, Peter Stone, "Value Function Decomposition for Iterative Design of Reinforcement Learning Agents", 36th Conference on Neural Information Processing Systems (NeurIPS), 2022</p>
           </li>
           <li>
-            <p>Takuma Seno, Michita Imai, "d3rlpy: An Offline Deep Reinforcement Learning Library", 35th Conference on Neural Information Processing Systems (NeurIPS), Offline Reinforcement Learning Workshop, 2021</p>
+            <p>Peter R Wurman, Samuel Barrett, Kenta Kawamoto, James MacGlashan, Kaushik Subramanian, Thomas J Walsh, Roberto Capobianco, Alisa Devlic, Franziska Eckert, Florian Fuchs, Leilani Gilpin, Piyush Khandelwal, Varun Kompella, HaoChih Lin, Patrick MacAlpine, Declan Oller, <strong>Takuma Seno</strong>, Craig Sherstan, Michael D Thomure, Houmehr Aghabozorgi, Leon Barrett, Rory Douglas, Dion Whitehead, Peter Dürr, Peter Stone, Michael Spranger, Hiroaki Kitano. "Outracing champion Gran Turismo drivers with deep reinforcement learning", Nature, 602, 223-228, 2022</p>
           </li>
           <li>
-            <p>Ryuji Imamura, Takuma Seno, Kenta Kawamoto, Michael Spranger, "Expert Human-level Driving in Gran Turismo Sport Using Deep Reinforcement Learning with Image-based Representation", 35th Conference on Neural Information Processing Systems (NeurIPS), Deep Reinforcement Learning Workshop, 2021</p>
+            <p><strong>Takuma Seno</strong>, Michita Imai, "d3rlpy: An Offline Deep Reinforcement Learning Library", 35th Conference on Neural Information Processing Systems (NeurIPS), Offline Reinforcement Learning Workshop, 2021</p>
+          </li>
+          <li>
+            <p>Ryuji Imamura, <strong>Takuma Seno</strong>, Kenta Kawamoto, Michael Spranger, "Expert Human-level Driving in Gran Turismo Sport Using Deep Reinforcement Learning with Image-based Representation", 35th Conference on Neural Information Processing Systems (NeurIPS), Deep Reinforcement Learning Workshop, 2021</p>
           </li>
         </ul>
       </div>
@@ -130,8 +134,19 @@ const EducationSection = () => {
 const ProjectSection = () => {
   return (
     <div>
-      <h2 className={sectionTitleStyle}>PROJECTS</h2>
+      <h2 className={sectionTitleStyle}>OSS ACTIVITIES</h2>
       <div className={sectionContentStyle}>
+        <ul className={contentListStyle}>
+          <li>
+            <p><span className={importantNameStyle}>d3rlpy</span>, an offline deep reinforcement learning library, founder, <a href="https://github.com/takuseno/d3rlpy">https://github.com/takuseno/d3rlpy</a></p>
+          </li>
+          <li>
+            <p><span className={importantNameStyle}>nnabla</span>, Sony's neural network library, contributor, <a href="https://github.com/sony/nnabla">https://github.com/sony/nnabla</a></p>
+          </li>
+          <li>
+            <p><span className={importantNameStyle}>nnabla-rl</span>, a nnabla-based deep reinforcement learning library, contributor, <a href="https://github.com/sony/nnabla-rl">https://github.com/sony/nnabla-rl</a></p>
+          </li>
+        </ul>
       </div>
     </div>
   )
@@ -173,6 +188,7 @@ const IndexPage = () => {
         <IntroSection />
         <JobSection />
         <PublicationSection />
+        <ProjectSection />
         <EducationSection />
         <PrizeSection />
       </Container>
