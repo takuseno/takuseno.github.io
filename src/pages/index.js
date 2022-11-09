@@ -90,6 +90,9 @@ const PublicationSection = () => {
       <div className={sectionContentStyle}>
         <ul className={publicationListStyle}>
           <li>
+            <p>Paavo Parmas, <strong>Takuma Seno</strong>, "Proppo: a Message Passing Framework for Customizable and Composable Learning Algorithms", 36th Conference on Neural Information Processing Systems (NeurIPS), 2022</p>
+          </li>
+          <li>
             <p>James MacGlashan, Evan Archer, Alisa Devlic, <strong>Takuma Seno</strong>, Craig Sherstan, Peter R Wurman, Peter Stone, "Value Function Decomposition for Iterative Design of Reinforcement Learning Agents", 36th Conference on Neural Information Processing Systems (NeurIPS), 2022</p>
           </li>
           <li>
@@ -97,9 +100,6 @@ const PublicationSection = () => {
           </li>
           <li>
             <p><strong>Takuma Seno</strong>, Michita Imai, "d3rlpy: An Offline Deep Reinforcement Learning Library", 35th Conference on Neural Information Processing Systems (NeurIPS), Offline Reinforcement Learning Workshop, 2021</p>
-          </li>
-          <li>
-            <p>Ryuji Imamura, <strong>Takuma Seno</strong>, Kenta Kawamoto, Michael Spranger, "Expert Human-level Driving in Gran Turismo Sport Using Deep Reinforcement Learning with Image-based Representation", 35th Conference on Neural Information Processing Systems (NeurIPS), Deep Reinforcement Learning Workshop, 2021</p>
           </li>
         </ul>
       </div>
