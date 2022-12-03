@@ -90,6 +90,9 @@ const PublicationSection = () => {
       <div className={sectionContentStyle}>
         <ul className={publicationListStyle}>
           <li>
+            <p><strong>Takuma Seno</strong>, Michita Imai, "d3rlpy: An Offline Deep Reinforcement Learning Library", Journal of Machine Learning Research, 315, 1-20, 2022</p>
+          </li>
+          <li>
             <p>Paavo Parmas, <strong>Takuma Seno</strong>, "Proppo: a Message Passing Framework for Customizable and Composable Learning Algorithms", 36th Conference on Neural Information Processing Systems (NeurIPS), 2022</p>
           </li>
           <li>
@@ -97,9 +100,6 @@ const PublicationSection = () => {
           </li>
           <li>
             <p>Peter R Wurman, Samuel Barrett, Kenta Kawamoto, James MacGlashan, Kaushik Subramanian, Thomas J Walsh, Roberto Capobianco, Alisa Devlic, Franziska Eckert, Florian Fuchs, Leilani Gilpin, Piyush Khandelwal, Varun Kompella, HaoChih Lin, Patrick MacAlpine, Declan Oller, <strong>Takuma Seno</strong>, Craig Sherstan, Michael D Thomure, Houmehr Aghabozorgi, Leon Barrett, Rory Douglas, Dion Whitehead, Peter Dürr, Peter Stone, Michael Spranger, Hiroaki Kitano. "Outracing champion Gran Turismo drivers with deep reinforcement learning", Nature, 602, 223-228, 2022</p>
-          </li>
-          <li>
-            <p><strong>Takuma Seno</strong>, Michita Imai, "d3rlpy: An Offline Deep Reinforcement Learning Library", 35th Conference on Neural Information Processing Systems (NeurIPS), Offline Reinforcement Learning Workshop, 2021</p>
           </li>
         </ul>
       </div>
