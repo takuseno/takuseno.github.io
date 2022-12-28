@@ -39,7 +39,8 @@ const IntroSection = () => {
         <Col md="auto">
           <p>
             <a href="https://www.linkedin.com/in/takuseno">LinkedIn</a>,
-            <a href="https://github.com/takuseno">GitHub</a>
+            <a href="https://github.com/takuseno">GitHub</a>,
+            <a href="https://scholar.google.co.jp/citations?user=uBCMlS4AAAAJ">Google Scholar</a>
           </p>
         </Col>
       </Row>
@@ -59,7 +60,7 @@ const JobSection = () => {
           </li>
           <li>
             <p><span className={importantNameStyle}>Okinawa Institute of Science and Technology</span> (2020-03 - 2020-07)</p>
-            <p>Research Assistant, worked for building a new deep learning library</p>
+            <p>Research Assistant, worked for a custom backpropagation library: <a href="https://github.com/proppo/proppo">Proppo</a></p>
           </li>
           <li>
             <p><span className={importantNameStyle}>Sony Corporation</span> (2018-11 - 2020-07)</p>
@@ -114,7 +115,7 @@ const EducationSection = () => {
       <div className={sectionContentStyle}>
         <ul className={contentListStyle}>
           <li>
-            <p><span className={importantNameStyle}>Keio University</span> (2019-10 - Present)</p>
+            <p><span className={importantNameStyle}>Keio University</span> (2019-10 - 2023-09)</p>
             <p>Ph.D, Computer Science</p>
           </li>
           <li>
@@ -159,10 +160,10 @@ const PrizeSection = () => {
       <div className={sectionContentStyle}>
         <ul className={contentListStyle}>
           <li>
-            <p><span className={importantNameStyle}>MITOU Super Creator</span> titled by Information-technology Promosition Agency, Japan (IPA) (2021)</p>
+            <p><span className={importantNameStyle}>Mitou Super Creator</span> titled by Information-technology Promosition Agency, Japan (IPA) (2021)</p>
           </li>
           <li>
-            <p><span className={importantNameStyle}>MITOU Creator</span> selected by Information-technology Promotion Agency, Japan (IPA) (2020)</p>
+            <p><span className={importantNameStyle}>Mitou Creator</span> selected by Information-technology Promotion Agency, Japan (IPA) (2020)</p>
           </li>
           <li>
             <p><span className={importantNameStyle}>Best Presentation Award</span> given at Annual Conference in Japanese Neural Network Society (2019)</p>
