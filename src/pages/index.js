@@ -147,6 +147,9 @@ const ProjectSection = () => {
           <li>
             <p><span className={importantNameStyle}>nnabla-rl</span>, a nnabla-based deep reinforcement learning library, contributor, <a href="https://github.com/sony/nnabla-rl">https://github.com/sony/nnabla-rl</a></p>
           </li>
+          <li>
+            <p><span className={importantNameStyle}>nnabla-js</span>, a JavaScript runtime for nnabla, founder, <a href="https://github.com/sony/nnabla-js">https://github.com/sony/nnabla-js</a></p>
+          </li>
         </ul>
       </div>
     </div>
@@ -160,7 +163,7 @@ const PrizeSection = () => {
       <div className={sectionContentStyle}>
         <ul className={contentListStyle}>
           <li>
-            <p><span className={importantNameStyle}>Mitou Super Creator</span> titled by Information-technology Promosition Agency, Japan (IPA) (2021)</p>
+            <p><span className={importantNameStyle}>Mitou Super Creator</span> certified by Information-technology Promotion Agency, Japan (IPA) (2021)</p>
           </li>
           <li>
             <p><span className={importantNameStyle}>Mitou Creator</span> selected by Information-technology Promotion Agency, Japan (IPA) (2020)</p>
