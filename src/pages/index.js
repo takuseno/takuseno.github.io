@@ -91,6 +91,9 @@ const PublicationSection = () => {
       <div className={sectionContentStyle}>
         <ul className={publicationListStyle}>
           <li>
+            <p>Paavo Parmas, <strong>Takuma Seno</strong>, Yuma Aoki, "Model-based Reinforcement Learning with Scalable Composite Policy Gradient Estimators", 40th International Conference on Machine Learning (ICML), 2023</p>
+          </li>
+          <li>
             <p><strong>Takuma Seno</strong>, Michita Imai, "d3rlpy: An Offline Deep Reinforcement Learning Library", Journal of Machine Learning Research, 315, 1-20, 2022</p>
           </li>
           <li>
@@ -115,7 +118,7 @@ const EducationSection = () => {
       <div className={sectionContentStyle}>
         <ul className={contentListStyle}>
           <li>
-            <p><span className={importantNameStyle}>Keio University</span> (2019-10 - 2023-09)</p>
+            <p><span className={importantNameStyle}>Keio University</span> (2019-09 - 2023-09)</p>
             <p>Ph.D, Computer Science</p>
           </li>
           <li>
