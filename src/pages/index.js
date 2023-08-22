@@ -105,6 +105,12 @@ const PublicationSection = () => {
           <li>
             <p>Peter R Wurman, Samuel Barrett, Kenta Kawamoto, James MacGlashan, Kaushik Subramanian, Thomas J Walsh, Roberto Capobianco, Alisa Devlic, Franziska Eckert, Florian Fuchs, Leilani Gilpin, Piyush Khandelwal, Varun Kompella, HaoChih Lin, Patrick MacAlpine, Declan Oller, <strong>Takuma Seno</strong>, Craig Sherstan, Michael D Thomure, Houmehr Aghabozorgi, Leon Barrett, Rory Douglas, Dion Whitehead, Peter Dürr, Peter Stone, Michael Spranger, Hiroaki Kitano. "Outracing champion Gran Turismo drivers with deep reinforcement learning", Nature, 602, 223-228, 2022</p>
           </li>
+          <li>
+            <p><strong>Takuma Seno</strong>, Michita Imai, "d3rlpy: An Offline Deep Reinforcement Learning Library", NeurIPS Offline Reinforcement Learning Workshop, 2021</p>
+          </li>
+          <li>
+            <p>Ryuji Imamura, <strong>Takuma Seno</strong>, Kenta Kawamoto, Michael Spranger, "Expert Human-Level Driving in Gran Turismo Sport Using Deep Reinforcement Learning with Image-based Representation", NeurIPS Deep Reinforcement Learning Workshop, 2021</p>
+          </li>
         </ul>
       </div>
     </div>
