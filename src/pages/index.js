@@ -32,7 +32,7 @@ const IntroSection = () => {
       </Row>
       <Row className="justify-content-md-center">
         <Col md="auto">
-          <p>Machine Learning Engineer @ Sony AI / Sony Research</p>
+          <p>Ph.D, Machine Learning Engineer @ Sony AI / Sony Research</p>
         </Col>
       </Row>
       <Row className="justify-content-md-center">
