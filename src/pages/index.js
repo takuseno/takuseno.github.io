@@ -94,7 +94,7 @@ const PublicationSection = () => {
             <p>Paavo Parmas, <strong>Takuma Seno</strong>, Yuma Aoki, "Model-based Reinforcement Learning with Scalable Composite Policy Gradient Estimators", 40th International Conference on Machine Learning (ICML), 2023</p>
           </li>
           <li>
-            <p><strong>Takuma Seno</strong>, Michita Imai, "d3rlpy: An Offline Deep Reinforcement Learning Library", Journal of Machine Learning Research, 315, 1-20, 2022</p>
+            <p><strong>Takuma Seno</strong>, Michita Imai, "d3rlpy: An Offline Deep Reinforcement Learning Library", Journal of Machine Learning Research (JMLR), 315, 1-20, 2022</p>
           </li>
           <li>
             <p>Paavo Parmas, <strong>Takuma Seno</strong>, "Proppo: a Message Passing Framework for Customizable and Composable Learning Algorithms", 36th Conference on Neural Information Processing Systems (NeurIPS), 2022</p>
