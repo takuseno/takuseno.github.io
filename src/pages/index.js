@@ -193,10 +193,10 @@ const ProjectSection = () => {
   )
 }
 
-const PrizeSection = () => {
+const AwardSection = () => {
   return (
     <div>
-      <h2 className={sectionTitleStyle}>PRIZES</h2>
+      <h2 className={sectionTitleStyle}>AWARDS</h2>
       <div className={sectionContentStyle}>
         <ul className={contentListStyle}>
           <li>
@@ -234,7 +234,7 @@ const IndexPage = () => {
         <PublicationSection />
         <ProjectSection />
         <EducationSection />
-        <PrizeSection />
+        <AwardSection />
       </Container>
     </main>
   )
