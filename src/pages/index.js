@@ -122,12 +122,14 @@ const PublicationSection = () => {
             <p>James MacGlashan, Evan Archer*, Alisa Devlic*, <strong>Takuma Seno*</strong>, Craig Sherstan*, Peter R Wurman, Peter Stone, "Value Function Decomposition for Iterative Design of Reinforcement Learning Agents", 36th Conference on Neural Information Processing Systems (NeurIPS), 2022</p>
             <p>
               <a className={publicationLinkStyle} href="https://proceedings.neurips.cc/paper_files/paper/2022/hash/4eb2c0adafbe71269f3a772c130f9e53-Abstract-Conference.html">Paper</a>
+              <a className={publicationLinkStyle} href="https://github.com/sony/nnabla-rl/blob/master/nnabla_rl/algorithms/sacd.py#L103">Code</a>
             </p>
           </li>
           <li>
             <p>Peter R Wurman, Samuel Barrett, Kenta Kawamoto, James MacGlashan, Kaushik Subramanian, Thomas J Walsh, Roberto Capobianco, Alisa Devlic, Franziska Eckert, Florian Fuchs, Leilani Gilpin, Piyush Khandelwal, Varun Kompella, HaoChih Lin, Patrick MacAlpine, Declan Oller, <strong>Takuma Seno</strong>, Craig Sherstan, Michael D Thomure, Houmehr Aghabozorgi, Leon Barrett, Rory Douglas, Dion Whitehead, Peter Dürr, Peter Stone, Michael Spranger, Hiroaki Kitano. "Outracing champion Gran Turismo drivers with deep reinforcement learning", Nature, 602, 223-228, 2022</p>
             <p>
               <a className={publicationLinkStyle} href="https://www.nature.com/articles/s41586-021-04357-7">Paper</a>
+              <a className={publicationLinkStyle} href="https://www.gran-turismo.com/us/gran-turismo-sophy/">Project Page</a>
             </p>
           </li>
           <li>
