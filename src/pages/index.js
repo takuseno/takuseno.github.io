@@ -92,6 +92,14 @@ const PublicationSection = () => {
       <div className={sectionContentStyle}>
         <ul className={publicationListStyle}>
           <li>
+            <p>Hojoon Lee*, Dongyoon Hwang*, Donghu Kim, Hyunseung Kim, Jun Jet Tai, Kaushik Subramanian, Peter R. Wurman, Jaegul Choo, Peter Stone, <strong>Takuma Seno</strong>, "SimBa: Simplicity Bias for Scaling Up Parameters in Deep Reinforcement Learning", ArXiv Preprint, 2024</p>
+            <p>
+              <a className={publicationLinkStyle} href="https://arxiv.org/abs/2410.09754">Paper</a>
+              <a className={publicationLinkStyle} href="https://sonyresearch.github.io/simba/">Project Page</a>
+              <a className={publicationLinkStyle} href="https://github.com/SonyResearch/simba">Code</a>
+            </p>
+          </li>
+          <li>
             <p>Miguel Vasco*, <strong>Takuma Seno</strong>*, Kenta Kawamoto, Kaushik Subramanian, Peter R. Wurman, Peter Stone, "A Super-human Vision-based Reinforcement Learning Agent for Autonomous Racing in Gran Turismo", 1st Reinforcement Learning Conference (RLC), 2024, <strong>Outstanding Paper Award on Applications of RL</strong></p>
             <p>
               <a className={publicationLinkStyle} href="https://rlj.cs.umass.edu/2024/papers/Paper213.html">Paper</a>
