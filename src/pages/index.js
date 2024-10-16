@@ -180,7 +180,7 @@ const EducationSection = () => {
 const ProjectSection = () => {
   return (
     <div>
-      <h2 className={sectionTitleStyle}>OSS ACTIVITIES</h2>
+      <h2 className={sectionTitleStyle}>SOFTWARE PROJCTS</h2>
       <div className={sectionContentStyle}>
         <ul className={contentListStyle}>
           <li>
@@ -194,6 +194,9 @@ const ProjectSection = () => {
           </li>
           <li>
             <p><span className={importantNameStyle}>nnabla-js</span>, a JavaScript runtime for nnabla, founder, <a href="https://github.com/sony/nnabla-js">https://github.com/sony/nnabla-js</a></p>
+          </li>
+          <li>
+            <p><span className={importantNameStyle}>Nota</span>, a markdown note-taking app with simplicity, founder, <a href="https://www.nota-sync.com">https://www.nota-sync.com</a></p>
           </li>
         </ul>
       </div>

@@ -13,7 +13,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b public"
+    "deploy": "NODE_OPTIONS=--openssl-legacy-provider gatsby build && gh-pages -d public -b public"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
