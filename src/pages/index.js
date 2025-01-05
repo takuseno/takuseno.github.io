@@ -73,7 +73,7 @@ const JobSection = () => {
           </li>
           <li>
             <p><span className={importantNameStyle}>Wantedly</span> (2016-03 - 2018-11)</p>
-            <p>Part-time Web Developer, worked for <a href="https://wantedly.com">wantedly.com</a> and recommendation algorithms</p>
+            <p>Part-time Web Developer, worked for front/backend development of <a href="https://wantedly.com">wantedly.com</a> and <a href="https://www.wantedly.com/companies/wantedly/post_articles/113945">deep learning-based recommendation algorithms</a></p>
           </li>
           <li>
             <p><span className={importantNameStyle}>MatchinGood</span> (2014-10 - 2016-04)</p>
