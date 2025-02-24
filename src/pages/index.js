@@ -92,6 +92,12 @@ const PublicationSection = () => {
       <div className={sectionContentStyle}>
         <ul className={publicationListStyle}>
           <li>
+            <p>Hojoon Lee, Youngdo Lee, <strong>Takuma Seno</strong>, Donghu Kim, Peter Stone, Jaegul Choo, "Hyperspherical Normalization for Scalable Deep Reinforcement Learning", ArXiv Preprint, 2025</p>
+            <p>
+              <a className={publicationLinkStyle} href="https://arxiv.org/abs/2502.15280">Paper</a>
+            </p>
+          </li>
+          <li>
             <p>Hojoon Lee*, Dongyoon Hwang*, Donghu Kim, Hyunseung Kim, Jun Jet Tai, Kaushik Subramanian, Peter R. Wurman, Jaegul Choo, Peter Stone, <strong>Takuma Seno</strong>, "SimBa: Simplicity Bias for Scaling Up Parameters in Deep Reinforcement Learning", The Thirteenth International Conference on Learning Representations (ICLR), <strong>Spotlight</strong>, 2025</p>
             <p>
               <a className={publicationLinkStyle} href="https://arxiv.org/abs/2410.09754">Paper</a>
