@@ -92,6 +92,13 @@ const PublicationSection = () => {
       <div className={sectionContentStyle}>
         <ul className={publicationListStyle}>
           <li>
+            <p>Hojoon Lee*, <strong>Takuma Seno</strong>*, Jun Jet Tai*, Kaushik Subramanian, Kenta Kawamoto, Peter Stone, Peter R. Wurman, "A Champion-level Vision-based Reinforcement Learning Agent for Competitive Racing in Gran Turismo 7", IEEE Robotics and Automation Letters (RA-L), 2025, to be presented at ICRA'26</p>
+            <p>
+              <a className={publicationLinkStyle} href="https://arxiv.org/abs/2504.09021">Paper</a>
+              <a className={publicationLinkStyle} href="https://www.youtube.com/watch?v=a-GuIbQOw_c">Video</a>
+            </p>
+          </li>
+          <li>
             <p>Hojoon Lee, Youngdo Lee, <strong>Takuma Seno</strong>, Donghu Kim, Peter Stone, Jaegul Choo, "Hyperspherical Normalization for Scalable Deep Reinforcement Learning", ArXiv Preprint, 2025</p>
             <p>
               <a className={publicationLinkStyle} href="https://arxiv.org/abs/2502.15280">Paper</a>
