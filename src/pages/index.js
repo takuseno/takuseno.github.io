@@ -249,6 +249,36 @@ const AwardSection = () => {
   )
 }
 
+const AcademicServiceSection = () => {
+  return (
+    <div>
+      <h2 className={sectionTitleStyle}>ACADEMIC SERVICE</h2>
+      <div className={sectionContentStyle}>
+        <ul className={contentListStyle}>
+          <li>
+            <p>Served as a reviewer at RLC'25, CoRL'24</p>
+          </li>
+          <li>
+            <p>Co-organized <a href="https://sites.google.com/view/rlvg-workshop-2025/home">Reinforcement Learning and Video Games workshop @ RLC'25</a></p>
+          </li>
+          <li>
+            <p>Lectures about GT Sophy work at World Models @ University of Tokyo in 2022, 2023, 2024</p>
+          </li>
+          <li>
+            <p>Invited talk about GT Sophy work at Keio University in 2022, 2024</p>
+          </li>
+          <li>
+            <p>Invited talk about offline reinforcement learning at Tokyo AI in 2025</p>
+          </li>
+          <li>
+            <p>Invited talk about offline reinforcement learning at Reinforcement learning course @ KTH in 2024</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  )
+}
+
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
@@ -261,6 +291,7 @@ const IndexPage = () => {
         <ProjectSection />
         <EducationSection />
         <AwardSection />
+        <AcademicServiceSection />
       </Container>
     </main>
   )
