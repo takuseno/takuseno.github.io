@@ -99,7 +99,7 @@ const PublicationSection = () => {
             </p>
           </li>
           <li>
-            <p>Hojoon Lee, Youngdo Lee, <strong>Takuma Seno</strong>, Donghu Kim, Peter Stone, Jaegul Choo, "Hyperspherical Normalization for Scalable Deep Reinforcement Learning", ArXiv Preprint, 2025</p>
+            <p>Hojoon Lee*, Youngdo Lee*, <strong>Takuma Seno</strong>, Donghu Kim, Peter Stone, Jaegul Choo, "Hyperspherical Normalization for Scalable Deep Reinforcement Learning", 42nd International Conference on Machine Learning (ICML), <strong>spotlight poster</strong>, 2025</p>
             <p>
               <a className={publicationLinkStyle} href="https://arxiv.org/abs/2502.15280">Paper</a>
               <a className={publicationLinkStyle} href="https://dojeon-ai.github.io/SimbaV2/">Project Page</a>
