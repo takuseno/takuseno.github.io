@@ -256,7 +256,7 @@ const AcademicServiceSection = () => {
       <div className={sectionContentStyle}>
         <ul className={contentListStyle}>
           <li>
-            <p>Served as a reviewer at RLC'25, CoRL'24</p>
+            <p>Served as a reviewer at CoRL'25, RLC'25, CoRL'24</p>
           </li>
           <li>
             <p>Co-organized <a href="https://sites.google.com/view/rlvg-workshop-2025/home">Reinforcement Learning and Video Games workshop @ RLC'25</a></p>
