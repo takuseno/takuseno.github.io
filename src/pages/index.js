@@ -33,7 +33,7 @@ const IntroSection = () => {
       </Row>
       <Row className="justify-content-md-center">
         <Col md="auto">
-          <p>Ph.D, Senior Research Scientist @ Sony Research</p>
+          <p>Ph.D, Staff Researcher @ Turing inc.</p>
         </Col>
       </Row>
       <Row className="justify-content-md-center">
@@ -56,8 +56,12 @@ const JobSection = () => {
       <div className={sectionContentStyle}>
         <ul className={contentListStyle}>
           <li>
-            <p><span className={importantNameStyle}>Sony Research</span> (2020-10 - Present)</p>
-            <p>Senior Research Scientist, working for <a href="https://www.gran-turismo.com/us/gran-turismo-sophy/">Gran Turismo Sophy</a></p>
+            <p><span className={importantNameStyle}>Turing inc.</span> (2025-07 - Present)</p>
+            <p>Staff Researcher, driving deep reinforcement learning research towards level 5 autonomous driving</p>
+          </li>
+          <li>
+            <p><span className={importantNameStyle}>Sony Research</span> (2020-10 - 2025-06)</p>
+            <p>Senior Research Scientist, worked for <a href="https://www.gran-turismo.com/us/gran-turismo-sophy/">Gran Turismo Sophy</a></p>
           </li>
           <li>
             <p><span className={importantNameStyle}>Okinawa Institute of Science and Technology</span> (2020-03 - 2020-07)</p>
