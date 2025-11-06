@@ -96,6 +96,12 @@ const PublicationSection = () => {
       <div className={sectionContentStyle}>
         <ul className={publicationListStyle}>
           <li>
+            <p>Michel Ma, <strong>Takuma Seno</strong>, Kaushik Subramanian, Peter R. Wurman, Peter Stone, Craig Sherstan, "Automated Reward Design for Gran Turismo", NeurIPS 2025 Workshop on Bridging Language, Agent, and World Models for Reasoning and Planning, 2025</p>
+            <p>
+              <a className={publicationLinkStyle} href="https://arxiv.org/abs/2511.02094">Paper</a>
+            </p>
+          </li>
+          <li>
             <p>Hojoon Lee*, <strong>Takuma Seno</strong>*, Jun Jet Tai*, Kaushik Subramanian, Kenta Kawamoto, Peter Stone, Peter R. Wurman, "A Champion-level Vision-based Reinforcement Learning Agent for Competitive Racing in Gran Turismo 7", IEEE Robotics and Automation Letters (RA-L), 2025, to be presented at ICRA'26</p>
             <p>
               <a className={publicationLinkStyle} href="https://arxiv.org/abs/2504.09021">Paper</a>
